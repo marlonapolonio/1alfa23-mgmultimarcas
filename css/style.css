@@ -169,3 +169,26 @@ footer .menu li {
     line-height: 25px;
     padding: 50px;
 }
+.div-50 {
+    width: 49%;
+    display: inline-block;
+    vertical-align: top;
+}
+.faleconosco h3{
+    font-size: 25px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+.faleconosco input {
+    background-color: #d8b3b3;
+    width: 250px;
+    padding: 10px 2px;
+}
+input[type=radio] {
+    width: 25px;
+    float: left;
+    margin: 5px 0;
+}
+.faleconosco ul li{
+    display: inline-block;
+}
