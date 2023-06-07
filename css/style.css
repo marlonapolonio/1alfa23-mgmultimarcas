@@ -173,6 +173,7 @@ footer .menu li {
     width: 49%;
     display: inline-block;
     vertical-align: top;
+    text-align: center;
 }
 .faleconosco h3{
     font-size: 25px;
@@ -211,7 +212,7 @@ input[type=radio] {
     display: none;
 }
 /*SCREEN 480PX */
-@media (max-width:1200px){
+@media (max-width:1300px){
     .dropdown{
         display: block;
         text-align: center;
@@ -262,6 +263,10 @@ input[type=radio] {
     }
     }
        @media(max-width: 767px) and(min-width:481px) {
+        .marcas {
+            text-align: center;
+            width: 30%;
+        }
         .marcas ul li{
             width: 30%;
         } 
@@ -277,6 +282,46 @@ input[type=radio] {
 
         .content{
             width: calc(100% - 40px);
+            padding: 10px 0;
         }
+        .sobre h3{
+            text-align: center;
+        }
+        .div-50{
+            width: 100%;
+       
+        }
+        .faleconosco textarea {
+            width: 100%;
+            max-width: 500px;
+        }
+        iframe{
+            width: 100%;
+            max-width: 600px;
+        }
+        .faleconosco {
+            text-align: center;
+        }
+        section {
+            width: calc(100% - 100px);
+        }
+        header section{
+            width: 100%;
+        }
+        .faleconosco.div-50{
+            width: 100%;
+        }
+        .faleconosco textarea {
+            width: 100%;
+            max-width: 500px;
+        }
+        iframe{
+            width: 100%;
+            max-width: 600px;
+        }
+        .faleconosco {
+            text-align: center;
+        }
+         
       }
     
